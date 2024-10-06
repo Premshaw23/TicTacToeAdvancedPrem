@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #57cc99;
+    text-align: center;
+}
+.container{
+    height: 67vh;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+/* .Submit{
+    padding: 0.3rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+  .input{
+    font-size: 1.05rem;
+    padding: 0.6rem;
+    padding-left: 17px;
+    width: 15rem;
+    border: none;
+    border-radius:20px;
+  }
+  input[type="number"]::placeholder {
+    color: #ff3485;
+  } */
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+#game{
+height: 67vmin;
+width: 70vmin;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1.5vmin;
+}
+
+.cell{
+    height: 9.5vmin;
+    width: 9.5vmin;
+    border-radius:10% ;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0,0,1rem rgb(0, 0, 0,0.1);
+    font-size: 2rem;
+    color: #ef476f;
+    background-color: #ffffc7;
+}
+
+#message {
+    height: 7vmin;
+    width: 65vmin;
+    border:1px solid black;
+    border-radius: 11px;
+    text-align: center;
+    background-color: #f26687;
+    padding: 1px;
+    margin-bottom: 0.7rem;
+    display: inline-block;
+    font-size: 2.4rem;
+}
+.btn{
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 1rem;
+    margin-top: 0.7rem;
+    padding: 0.8rem;
+    color: #ffffff;
+    border: none;
+}
+@media (max-width:790px){
+    .container{
+        height: 70vh;
+    }
+    #game{
+        height: 70vmin;
+        width: 75vmin;
+    }
+    .cell{
+        height: 10vmin;
+        width: 10vmin;
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-top: 0.2rem;
+    }
+    #message {
+        height: 7vmin;
+        width: 65vmin;
+        margin-top: 0.6rem;
+        font-size: 6vmin;
+    }
+}
+@media (max-width:640px){
+    .container{
+        height: 65vh;
+    }
+    #game{
+        height: 69vmin;
+        width: 60vmin;
+    }
+    .cell{
+        height: 8vmin;
+        width: 8vmin;
+        border-radius: 0.5rem;
+    }
+    h1{
+        font-size: 2.5rem;
+        margin-top: 0.2rem;
+    }
+    #message {
+        height: 7vmin;
+        width: 65vmin;
+        margin-top: 0.6rem;
+        font-size: 6vmin;
+    }
+}
+@media (max-width:600px){
+    .container{
+        height: 70vh;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+}
+@media (max-width:500px){
+    .container{
+        height: 50vh;
+    }
+    #game{
+        height: 69vmin;
+        width: 70vmin;
+    }
+    .cell{
+        height: 9vmin;
+        width: 9vmin;
+        border-radius: 0.5rem;
+    }
+}
+@media (max-width:400px) {
+    .container{
+        height: 42vh;
+    }
+    #game{
+        height: 75vmin;
+        width: 70vmin;
+    }
+    .btn{
+        font-size: 0.7rem;
+        padding: 0.6rem;
+    }
+}
+@media (max-width:325px) {
+    .container{
+        height: 40vh;
+    }
+    #game{
+        height: 75vmin;
+        width: 75vmin;
+    }
+    .cell{
+        height: 10vmin;
+        width: 10vmin;
+    }
+    .btn{
+        font-size: 0.7rem;
+        padding: 0.6rem
+    }
+}
