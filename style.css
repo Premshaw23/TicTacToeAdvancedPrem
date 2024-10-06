@@ -160,4 +160,23 @@ gap: 1.5vmin;
         padding: 0.6rem;
     }
 }
-
+@media (max-width:325px) {
+    .container{
+        height: 40vh;
+    }
+    #game{
+        height: 75vmin;
+        width: 75vmin;
+    }
+    .cell{
+        height: 10vmin;
+        width: 10vmin;
+    }
+    #message{
+        background-color: #57cc99;
+    }
+    .btn{
+        font-size: 0.7rem;
+        padding: 0.6rem
+    }
+}
